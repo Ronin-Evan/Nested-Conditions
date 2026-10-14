@@ -1,0 +1,7 @@
+choice = 4
+bike_type = 8
+if choice == 1:              # Level 0 — outer if
+    if bike_type == 1:       # Level 1 — inner if (4 spaces
+        print("Scooty")      # Level 2 — inner result (8 spaces)
+    else:                    # Level 1 — inner else (4 spaces)
+        print("Mountain Bike")

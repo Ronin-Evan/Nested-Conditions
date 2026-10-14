@@ -1,0 +1,5 @@
+choice = int(input("Enter 1 for Bike, 2 for Car: "))
+if choice == 1:
+    bike_type = int(input("Enter 1 for Scooty, 2 for Mountain Bike: "))
+    if bike_type == 1:
+        print("You picked Scooty")

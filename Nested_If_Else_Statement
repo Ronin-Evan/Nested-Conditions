@@ -1,0 +1,13 @@
+choice = 80
+bike_type = 7
+car_type = 5
+if choice == 1:             # outer: Bike
+    if bike_type == 1:
+        print("Scooty — 80 km/h")
+    else:
+        print("Mountain Bike — 40 km/h")
+elif choice == 2:           # outer: Car
+    if car_type == 1:
+        print("Sedan — 5 seats")
+    else:
+        print("SUV — 7 seats")

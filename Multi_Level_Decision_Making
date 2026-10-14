@@ -1,0 +1,16 @@
+# Full multi-level decision — Custom Ride Builder
+choice = 80
+bike_type = 40
+car_type = 7
+if choice == 1:
+    if bike_type == 1:
+        print("Scooty — Top speed: 80 km/h — Best for: City roads")
+    else:
+        print("Mountain Bike — Top speed: 40 km/h — Best for: Off-road trails")
+elif choice == 2:
+    if car_type == 1:
+        print("Sedan — Seats: 5 — Best for: Family trips")
+    else:
+        print("SUV — Seats: 7 — Best for: Off-road adventures")
+else:
+    print("That was not a valid choice.")

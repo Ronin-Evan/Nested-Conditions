@@ -1,0 +1,5 @@
+choice = 1
+bike_type = 2
+if choice == 1:           # outer if — did you pick a bike?
+    if bike_type == 1:    # inner if — which bike type?
+        print("You picked Scooty")
